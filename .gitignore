@@ -3,3 +3,4 @@ npm-debug.log*
 platforms/
 container/cordova/plugins/
 dist/
+container/chrome/packages/
