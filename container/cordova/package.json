@@ -22,5 +22,8 @@
             "android",
             "browser"
         ]
+    },
+    "devDependencies": {
+        "shelljs": "^0.7.6"
     }
 }
