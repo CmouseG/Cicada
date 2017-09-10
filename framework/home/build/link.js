@@ -172,7 +172,7 @@ var link = function(templateDir, projectDir) {
 
 
 // npm run link
-clean('../../dist/vue/www');
-// exists('../dist', '../../../dist/vue/www', copy);
-existsSync('./dist', '../../dist/vue/www', copySync);
-link('../../dist/vue/www', '../../container/cordova');
+clean('../../dist/home/www');
+// exists('../dist', '../../../dist/home/www', copy);
+existsSync('./dist', '../../dist/home/www', copySync);
+link('../../dist/home/www', '../../container/cordova');
