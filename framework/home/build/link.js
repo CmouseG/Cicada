@@ -172,7 +172,7 @@ var link = function(templateDir, projectDir) {
 
 
 // npm run link
-clean('../../dist/home/www');
+clean('../../dist/www/home');
 // exists('../dist', '../../../dist/home/www', copy);
-existsSync('./dist', '../../dist/home/www', copySync);
-link('../../dist/home/www', '../../container/cordova');
+existsSync('./dist', '../../dist/www/home', copySync);
+link('../../dist/www', '../../container/cordova');
